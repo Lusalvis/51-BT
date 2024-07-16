@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
- "dev": "dead-server --host=localhost --port=5017"
+ "dev": "dead-server --host=localhost --port=5015"
   },
   "keywords": [],
   "author": "",
