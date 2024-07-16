@@ -79,19 +79,21 @@ th {
     cursor: not-allowed;
 }
 
-.icon-before .icon {
+.icon-before svg, .icon-after svg {
+    height: 16px;
+    width: 16px;
     margin-right: 8px;
 }
 
-.icon-after .icon {
+.icon-after svg {
     margin-left: 8px;
+    margin-right: 0;
 }
 
-/* Icon styles for SVG */
-.icon-label::before {
-    content: '🔖';
+.hover {
+    opacity: 0.8;
 }
 
-.icon-action::before {
-    content: '✏️';
+.active {
+    opacity: 0.6;
 }
